@@ -1,0 +1,28 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  /* Since we're using material ui... */
+  margin: 0 2% !important;
+  /* width: auto !important; 
+  padding-right: 2em !important; */
+
+
+}
+.infected {
+  border-bottom: 10px solid #81d2f8;
+}
+.recovered {
+  border-bottom: 10px solid #81b29a;
+}
+.deaths {
+  border-bottom: 10px solid #9e2a2b;
+}
+
+@media (max-width: 770px){
+  .card{
+      margin: 2% 0% !important;
+  }
+  
+}
